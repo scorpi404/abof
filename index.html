@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Bit of Formatting</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js">
+
+    </script>
+</head>
+<body>
+    <h1>A Bit of Formatting</h1>
+    <hr color="yellow" width="100%">
+    <br><br><br>
+      <center>
+        <form name="ABoF">
+          <p>Title</p>
+          <textarea name="Title" id="Title" cols="45" rows="5"></textarea>
+          <br><br>
+          <p>Title Size</p>
+          <select name="TitleSize" id="TitleSize">
+            <option value="h1" class="h1">Header 1</option>
+            <option value="h2" class="h2" selected>Header 2</option>
+            <option value="h3" class="h3">Header 3</option>
+          </select>
+          <br><br><br>
+          <p>Source Text</p>
+          <input type="text" id="SourceText">
+          <br><br>
+          <p>Source Link</p>
+          <input type="text" id="SourceLink">
+          <br><br><br>
+          <p>Quote</p>
+          <textarea name="Quote" id="Quote" cols="45" rows="5"></textarea>
+          <br><br><br>
+          <p>Description</p>
+          <textarea name="Description" id="Desc" cols="45" rows="7"></textarea>
+          <br><br><br>
+          <p>Mention</p>
+          <select name="Ment" id="Ment">
+            <option value="Marvel">Marvel</option>
+            <option value="DC">DC</option>
+            <option value="Star Wars">Star Wars</option>
+          </select>
+          <br><br><br>
+          <button type="submit" id="generateMarkdown">Generate Markdown</button>
+          <br><br>
+          <textarea name="Result" id="Result" cols="50" rows="20" disabled></textarea>
+          <br><br>
+          <button type="button" id="copyButton">Copy to Clipboard</button>
+      </form>
+    </center>
+    
+</body>
+</html>

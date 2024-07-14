@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    font-family: 'Calibri';
+}
+h1{
+    color: yellow;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    color: yellow;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+#Title{
+    background-color: black;
+    border-color: yellow;
+    border-radius: 10px;
+    color: rgb(249, 249, 138);
+    resize: none;
+    border-width: 1.5px;
+    padding: 3px;
+
+}
+#TitleSize{
+    background-color: black;
+    color: rgb(249, 249, 138);
+    border-radius: 5px;
+    border-color: yellow;
+    align-items: center;
+    padding: 5px;
+}
+.h1{
+    font-size: 30px;
+}
+.h2{
+    font-size: 20px;
+}
+.h3{
+    font-size: 15px;
+}
+#SourceText{
+    background-color: black;
+    border-radius: 5px;
+    border-color: yellow;
+    border-width: 1.5px;
+    color: rgb(249, 249, 138);
+    text-align: center;
+}
+#SourceLink{
+    background-color: black;
+    border-radius: 5px;
+    border-color: yellow;
+    border-width: 1.5px;
+    color: rgb(249, 249, 138);
+    text-align: center;
+}
+#Quote{
+    background-color: black;
+    border-color: yellow;
+    border-radius: 10px;
+    color: rgb(249, 249, 138);
+    resize: none;
+    border-width: 1.5px;
+    padding: 3px;
+}
+#Desc{
+    background-color: black;
+    border-color: yellow;
+    border-radius: 10px;
+    color: rgb(249, 249, 138);
+    resize: none;
+    border-width: 1.5px;
+    padding: 3px;
+}
+#Ment{
+    background-color: black;
+    color: rgb(249, 249, 138);
+    border-radius: 5px;
+    border-color: yellow;
+    text-align: center;
+}
+#generateMarkdown{
+    background-color: yellow;
+    color: black;
+    border: 1.5px solid yellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#Result {
+    background-color: black;
+    border-color: yellow;
+    border-radius: 10px;
+    color: rgb(249, 249, 138);
+    resize: none;
+    border-width: 1.5px;
+    padding: 3px;
+    font-family: 'Calibri';
+}
+#Result:disabled {
+    opacity: 1; 
+    cursor: not-allowed; 
+}
+#copyButton {
+    background-color: yellow;
+    color: black;
+    border: 1.5px solid yellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bolder;    
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px black inset !important;
+    -webkit-box-shadow: 0 0 0px 1000px black inset !important;
+    -webkit-text-fill-color: yellow !important;
+    border: 1.5px solid yellow !important;
+}
+
