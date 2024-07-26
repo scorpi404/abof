@@ -55,6 +55,8 @@ function formatMarkdown(title, titleSize, sourceText, sourceLink, quote, descrip
 // Helper function to get mention string based on selection
 function getMention(mention) {
     switch (mention) {
+        case'None':
+            return '';
         case 'Marvel':
             return '<@&1127323133163081889>';
         case 'DC':
